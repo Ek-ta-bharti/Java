@@ -5,6 +5,8 @@ public class DataTypeExample1 {
         // byte data = 45;
         // // int data = 45;
         // long data = 8278216l;
+        // float data = 89.29f;
+        double data = 938.893;
         System.out.println(data);
     }
 }
