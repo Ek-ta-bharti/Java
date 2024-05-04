@@ -1,3 +1,4 @@
+package pattern;
 public class P1 {
     public static void Pattern() {
         int n=10;

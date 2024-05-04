@@ -1,20 +1,23 @@
-public class P11 {
+package pattern;
+
+public class P7 {
     public static void Pattern() {
-        int n = 10;
+        int n = 10; 
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                if (i == j || i+j == n-1) {
+                if (i-j == (n-1)/2) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
                 }
             }
-            System.out.println();
+            System.out.println(); 
         }
     }
-
     public static void main(String[] args) {
-        P11 square = new P11();
+        P7 square = new P7();
         square.Pattern();
     }
 }
+
