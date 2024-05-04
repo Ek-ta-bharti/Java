@@ -1,15 +1,13 @@
 public class P3 {
     public static void Pattern() {
-        int i = 10;
-        int j = 5;
-        for (j = 0; j < 5; j++) {
-            for (i = 0; i < 10; i++) {
+        int n=10;
+        for ( int j = 0; j < n; j++) {
+            for (int i = 0; i < n; i++) {
                 System.out.print("*");
             }
             System.out.println(" ");
         }
     }
-
     public static void main(String[] args) {
         P3 square = new P3();
 
