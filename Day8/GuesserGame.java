@@ -17,7 +17,7 @@ public class GuesserGame {
             }
         }
         System.out.println("No one guessed the correct number (" + secretNumber + "). The game will restart.");
-        main(null); 
+        main(null);
     }
 
     public static void main(String arr[]) {
@@ -27,6 +27,9 @@ public class GuesserGame {
         sc.nextLine();
         String[] playerName = new String[playernumber];
         int[] playerGuess = new int[playernumber];
+
+        System.out.println("Welcome to the Guesser Game!");
+        System.out.println("========================================");
 
         for (int i = 0; i < playernumber; i++) {
             System.out.print("Enter player " + (i + 1) + "'s name: ");
@@ -43,10 +46,10 @@ public class GuesserGame {
         for (int i = 0; i < playernumber; i++) {
             System.out.println((i + 1) + ". " + playerName[i] + "- -> " + playerGuess[i]);
         }
-
+        System.out.println("==================================================================");
         GuesserGame umpireA = new GuesserGame();
         umpireA.umpire(playerName, playerGuess);
-
+        System.out.println("==================================================================");
         sc.close();
     }
 }
