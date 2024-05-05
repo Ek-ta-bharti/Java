@@ -6,5 +6,8 @@ public class inputOutput {
         System.out.print("enter your name:");
         String name = sc.nextLine();
         System.out.println("It's My Name: " + name);
+        Scanner sa = new Scanner(System.in);
+        System.out.print("How many players want to play? ");
+        int name = sc.nextInt();
     }
 }

@@ -1,4 +1,3 @@
-package Day8;
 
 public class Pf4 {
     public static void pattern() {

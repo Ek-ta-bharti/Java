@@ -1,4 +1,4 @@
-package pattern;
+
 public class P11 {
     public static void Pattern() {
         int n = 10;

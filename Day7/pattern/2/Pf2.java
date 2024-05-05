@@ -1,4 +1,4 @@
-package Day8;
+
 
 public class Pf2 {
     public static void fullPattern() {

@@ -1,4 +1,4 @@
-package pattern;
+
 
 public class P7 {
     public static void Pattern() {
